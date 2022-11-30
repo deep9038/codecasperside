@@ -1,0 +1,130 @@
+.services-wrapper {
+    position: relative;
+    /* background-image: url("../../Asset/servi.jpg"); */
+    width: 100%;
+   
+    background: linear-gradient(179deg, black, transparent);
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+   display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.serv-inn {
+    position: relative;
+   
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 40px;
+}
+
+.box {
+
+    margin: 10px;
+    width: 340px;
+    height: 230px;
+    background: linear-gradient(90deg, rgba(252, 2, 210, 0.3) 13.54%, rgba(0, 165, 255, 0.3) 91.27%);
+    border-radius: 40px;
+    position: relative;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.box p{
+    padding-left: 20px;
+}
+
+.box .serv-btn {
+    position: relative;
+   
+    width: 169.89px;
+    height: 41.24px;
+    background: #292828;
+    box-shadow: -5px -2px 5px #534848, -2px -2px 0px #504E4E, 7px 4px 6px rgba(0, 0, 0, 0.8), 3px 2px 1px rgba(0, 0, 0, 0.8);
+    border-radius: 30px;
+    border: none;
+    color: white;
+    letter-spacing: 1px;
+
+}
+@media screen and (max-width:1140px){
+    .serv-inn {
+        
+        grid-template-columns: repeat(2, 1fr);
+       
+    }
+
+}
+@media screen and (max-width:840px){
+    .box{
+        width: 300px;
+    height: 200px;
+    border-radius: 10px;
+ }
+
+}
+@media screen and (max-width:720px){
+    .serv-inn{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+}
+
+@media screen and (max-width:600px) {
+    .services-wrapper{
+        background: black;
+        overflow-y: scroll;
+    }
+    .serv-inn {
+        position: absolute;
+        top: 7rem;
+        left: 6.5rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-row-gap:-30px ;
+        
+    }
+    .box {
+
+        width: 260px;
+        height: 200px;
+        background: linear-gradient(90deg, rgba(252, 2, 210, 0.3) 13.54%, rgba(0, 165, 255, 0.3) 91.27%);
+        border-radius: 20px;
+        position: relative;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+    .box h2{
+        font-size: 15px;
+    }
+
+    .box .serv-btn {
+        position: relative;
+       
+        width: 150px;
+        height: 41.24px;
+        background: #292828;
+        box-shadow: -5px -2px 5px #534848, -2px -2px 0px #504E4E, 7px 4px 6px rgba(0, 0, 0, 0.8), 3px 2px 1px rgba(0, 0, 0, 0.8);
+        border-radius: 30px;
+        border: none;
+        color: white;
+        
+    
+    }
+    .box p{
+        padding-left: 12px;
+    }
+}

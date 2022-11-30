@@ -1,0 +1,41 @@
+
+.nav-link{
+    font-weight: bolder;
+    font-size: 1rem;
+    margin-left: 10px;
+}
+.letsTalk{
+    width: 150px;
+    margin-left: 7rem;
+    padding-left: 1rem;
+    padding-right:1rem ;
+    background: linear-gradient(90deg, rgba(252, 2, 210, 0.3) 13.54%, rgba(0, 165, 255, 0.3) 91.27%);
+    border-radius: 20px;
+    letter-spacing: 1.3px;
+    box-shadow: -5px -2px 5px #534848, -2px -2px 0px #504E4E, 7px 4px 6px rgba(0, 0, 0, 0.8), 3px 2px 1px rgba(0, 0, 0, 0.8);
+}
+
+.dropdown-menu .dropdown-item{
+
+    background-color: #7b7b81
+}
+.dropdown-menu{
+    background-color: #ffffff75;
+}
+
+
+
+@media screen and (max-width:600px) {
+    
+  
+    .navbar{
+        width: 100vh;
+    }
+}
+@media screen and (max-width:1255px) {
+    
+  
+   .nav-link{
+    font-size: 0.9rem;
+   }
+}
